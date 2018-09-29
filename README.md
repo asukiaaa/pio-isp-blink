@@ -15,15 +15,15 @@ Sample project to write program to atmega328p via Arduino as ISP.
 
 # Connection
 
-atmega328p | other device
----------- | ------------
-D2    | LED + Registor
-D11   | ISP writer MOSI
-D12   | ISP writer MISO
-D13   | ISP writer SCK
-Reset | ISP writer reset signal
-5V    | ISP writer 5V
-GND   | ISP writer GND and LED
+Role         | atmega328p | other device
+------------ | ---------- | ------------
+LED control  | D2         | LED + Registor
+MOSI         | D11        | D11 of Arduino as ISP
+MISO         | D12        | D12 of Arduino as ISP
+SCK          | D13        | D13 of Arduino as ISP
+Reset signal | Reset      | D10 of Arduino as ISP
+5V           | 5V         | 5V of Arduino as ISP
+GND          | GND        | GND of LED and Arduino as ISP
 
 # References
 - [Arduino as ISP and Arduino Bootloaders](https://www.arduino.cc/en/Tutorial/ArduinoISP)
