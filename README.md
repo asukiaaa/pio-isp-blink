@@ -33,3 +33,4 @@ pio run -t program
 
 # References
 - [Arduino as ISP and Arduino Bootloaders](https://www.arduino.cc/en/Tutorial/ArduinoISP)
+- [Upload using programmer | PlatformIO](https://docs.platformio.org/en/latest/platforms/atmelavr.html#upload-using-programmer)
