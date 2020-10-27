@@ -25,5 +25,11 @@ Reset signal | Reset      | D10 of Arduino as ISP
 5V           | 5V         | 5V of Arduino as ISP
 GND          | GND        | GND of LED and Arduino as ISP
 
+# Command
+
+```
+pio run -t program
+```
+
 # References
 - [Arduino as ISP and Arduino Bootloaders](https://www.arduino.cc/en/Tutorial/ArduinoISP)
